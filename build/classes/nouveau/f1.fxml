@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="nouveau.F1Controller">
+    <stylesheets>
+        <URL value="@f1.css" />
+    </stylesheets>
+   <children>
+      <Label fx:id="bien" layoutX="173.0" layoutY="123.0" text="Label" textFill="#ee2424">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
